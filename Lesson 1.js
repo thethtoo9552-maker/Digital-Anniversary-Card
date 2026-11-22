@@ -1,7 +1,7 @@
 function aa() {
     let user=document.getElementByid("username").value;
     let pass=document.getElementById("password").value;
-    if (user=="admin" && pass=="1234"){
+    if (user=="love" && pass=="834"){
         document.getElementById("result").innerHTML="Login Successful!";
         window.location.href="Lover.html"
     }else{
