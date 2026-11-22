@@ -1,0 +1,24 @@
+body{
+    font-family: 'Gill Sans';
+    background: lightblue;
+    text-align: center;
+    padding: 100px;
+}
+.login{
+    background: white;
+    padding: 30px;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;    
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+}
+button{
+    padding: 10px 30px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}

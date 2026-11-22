@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asta</title>
+    <link rel="stylesheet" href="Lesson 1.css">
+</head>
+<body>
+    <div class="login">
+        <input type="text" id="username" placeholder="username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="aa()">login</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function aa() {
+            let user = document.getElementById("username").value;
+            let pass = document.getElementById("password").value;
+            if (user == "admin" && pass == "1234") {
+                document.getElementById("result").innerHTML = "Login Successful!";
+                window.location.href="Lover.html"
+            } else {
+                document.getElementById("result").innerHTML = "Wrong Username & Password";
+            }
+        }
+    </script>
+</body>
+</html>
